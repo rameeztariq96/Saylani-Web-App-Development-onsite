@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(/fonts/Poppins-ExtraLight.ttf);
+}
+body{
+    margin: 0px;
+    background-color:#9E2AFF;
+}
+div{
+    width: 600px;
+    color: white;
+    margin:10px auto;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 22%), inset 0 -1px 0 0 #dadce0;
+    font-family:"Poppins" ;
+}
+
+.capital{
+    font-size: 40px;
+    color: orange;
+}
+.btn{
+    font-family: "Poppins";
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: orange;
+    color: white;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 22%), inset 0 -1px 0 0 #dadce0;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: orange;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 22%), inset 0 -1px 0 0 #ffcf77;
+}
+.btn:active{
+    background-color: #ffa500;
+    color: white;
+}

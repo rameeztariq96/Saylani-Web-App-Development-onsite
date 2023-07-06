@@ -1,0 +1,18 @@
+table{
+    padding-left: 100px;
+}
+td{
+    width: 130px; 
+    height: 75px;
+}
+img{
+    width: 60px; 
+    height: 65px; 
+    padding-left: 35px;
+}
+.white{
+    background-color: #EAEACF;
+}
+.green{
+    background-color: #769656;
+}

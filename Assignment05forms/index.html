@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Job Applicaton Form</title>
+</head>
+
+<body>
+    <h1 style="margin: 40px;">Job Application</h1>
+    <hr style="background-color:black; height: 3px; margin: 0px 40px 0px 40px;">
+    <p style="margin: 0px 40px 0px 40px; font-size: 25px">
+        Thank you for your interest in woriking with us. Please check
+        below for available job opportunities that meet
+        your criteria and send your application by filling out the Job Application Form.</p>
+    <form style="margin: 20px 40px 0px 40px;">
+        <table style="width: 100%;">
+            <tr>    
+                <h4><label for="name">Name</label></h4>
+                <td><input type="Text" placeholder="First" name="firstname" size="50" id="name" required></td>
+                <td><input type="text" placeholder="Last" name="Lastname" size="50" required></td>
+            </tr>
+        </table>
+        <h4><label for="pemail">Email</label></h4>
+        <input type="email" placeholder="John.doe@example.com" name="email" id="pemail" size="140" required>
+        <table style="width: 76%;">
+            <tr>
+                <td>
+                    <p>What position are you applying for?</p>
+                    <select name="Position">
+                        <option value="" disabled>Select Position</option>
+                        <option value="Frontend">Front-End Developer</option>
+                        <option value="Backend">Back-End Developer</option>
+                        <option value="QA">Quality Assurence</option>
+                        <option value="HR">Human Resource</option>
+                    </select>
+                </td>
+                <td>
+                    <p>Available date.<br /><input type="date" value="date"></p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%;">
+            <tr>
+                <p>What is your current employee status?</p>
+                <td>
+                    <p><label><input type="radio" name="status" value="emplyed">Employed</label></p>
+                </td>
+                <td>
+                    <p><label><input type="radio" name="status" value="selfemplyed">Self-Employed</label></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><label><input type="radio" name="status" value="unemplyed">Unemployed</label></p>
+                </td>
+                <td>
+                    <p><label><input type="radio" name="status" value="student">Student</label></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Please provide your resume link <br /><input type="Text" placeholder="htpps://www.expamle.com" name="resumelink" size="50"></p></td>
+                <td><p><label>Please upload your Resume <br /><input type="file" name="Resumeupload" value="Resumeupload"></label></p></td>
+            </tr>
+            <tr>
+                <td><p>Do you have refference?(Optional) <br /><input type="text" placeholder="Fist" name="refname" value="refname" size="50"></p></td>
+                <td><p><input type="text" placeholder="Last" name="reflastname" value="" size="50"></p></td>
+            </tr>
+        </table>
+        <p><label>Refernce Email<br /><input type="email" placeholder="John.doe@example.com" name="refemail" size="140"></label></p>
+        <button style="background-color: #ffffff; color: #3a3a3a; border-style: none;">Reset</button>
+        <button style="background-color: #3a3a3a; color: #ffffff; margin-left: 50px;">Apply</button>
+
+    </form>
+</body>
+
+</html>
