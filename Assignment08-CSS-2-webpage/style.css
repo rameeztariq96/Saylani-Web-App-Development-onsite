@@ -421,14 +421,20 @@ nav>ul>li>img {
 .lower{
     font-size: 15px;
 }
-.express-os-main{
+.express-os-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.express-os-main{
+    width: 380px;
 }
 
 .express-os-container-content{
     line-height: 15px ;
     height: 230px;
-    width: 350px;
     background: #FFFFFF;
     color: #000000;
     font-size: 20px;
@@ -451,4 +457,26 @@ nav>ul>li>img {
     font-weight: 600;
     margin-right: 8px;
     font-size: 24px;
+}
+
+.social-heading{
+    padding-top: 40px;
+    font-size: 34px;
+    font-weight: 500;
+}
+.social-imgs>img{
+    width: 250px;
+    height: 250px;
+    margin: 0px 7px;
+}
+.footer-main{
+    background-color: #0F0F0F;
+    color: #fff;
+    width: 100%;
+}
+.footer-continer{
+    width: 1140px;
+    height: 338px;
+    display: flex;
+    
 }
