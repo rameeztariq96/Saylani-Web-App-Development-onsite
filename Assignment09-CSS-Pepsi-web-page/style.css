@@ -296,3 +296,51 @@ body{
         margin: 20px 0px;
     }
 }
+
+.backgimg2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #000000;
+    height: 678px;
+    overflow: hidden;
+}
+.front-3{
+    position: relative;
+}
+.main-img{
+    margin-right: -150px;
+    margin-top: -130px;
+    height: 805px;
+    width: 1000px;
+}
+.overr{
+    position: absolute;
+    top: 50px;
+    left: 575px;    
+    height: 180px;
+
+}
+.front-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+.front-4>img{
+    height: 240px;
+    width: 425px;
+}
+.front-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.sizes{
+    width: 235px;
+    /* height: 120px; */
+    background-color:#ffffff ;
+}
