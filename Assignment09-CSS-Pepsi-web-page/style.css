@@ -269,3 +269,30 @@ body{
     color: #ffffff;
     text-align: center;
 }
+@media only screen and (max-width: 992px) { 
+    .backgimg{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .front-1{ 
+        height: 100%;
+        width: 100%;
+        margin-left:0px;
+        margin-top: 0px;
+    }
+    .front-2{
+        width: 50%;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .space{
+        margin: 20px 0px;
+    }
+}
