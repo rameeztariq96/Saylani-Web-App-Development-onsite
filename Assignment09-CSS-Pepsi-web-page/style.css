@@ -269,33 +269,7 @@ body{
     color: #ffffff;
     text-align: center;
 }
-@media only screen and (max-width: 992px) { 
-    .backgimg{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .front-1{ 
-        height: 100%;
-        width: 100%;
-        margin-left:0px;
-        margin-top: 0px;
-    }
-    .front-2{
-        width: 50%;
-        height: 340px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin-top: 20px;
-    }
-    .space{
-        margin: 20px 0px;
-    }
-}
+/* ---------------------------------First Banner---------------------------------------------- */
 
 .backgimg2{
     display: flex;
@@ -328,19 +302,62 @@ body{
     color: #ffffff;
     text-align: center;
 }
-.front-4>img{
+.front-4-first{
     height: 240px;
     width: 425px;
 }
+.front-4-second{
+    height: 100px;
+    width: 425px;
+}
+
 .front-5{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-transform: uppercase;
-    font-size: 12px;
 }
 .sizes{
-    width: 235px;
-    /* height: 120px; */
-    background-color:#ffffff ;
+    width: 205px;
+    height: 120px;
+    background-color: #ffffff;
+}
+.sizes2{
+    width: 205px;
+    height: 75px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+/* ---------------------------------Second Banner---------------------------------------------- */
+    
+@media only screen and (max-width: 992px) {
+    .backgimg {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .front-1 {
+        height: 100%;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .front-2 {
+        width: 50%;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .space {
+        margin: 20px 0px;
+    }
 }
