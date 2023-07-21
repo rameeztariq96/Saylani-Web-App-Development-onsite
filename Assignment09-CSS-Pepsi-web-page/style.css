@@ -7,6 +7,9 @@ body{
 }
 .my-nav{
     background-color: #0065C3;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 @-webkit-keyframes rotateIn {
@@ -283,6 +286,7 @@ body{
     position: relative;
 }
 .main-img{
+    /* z-index: 0; */
     margin-right: -150px;
     margin-top: -130px;
     height: 805px;
@@ -331,9 +335,38 @@ body{
 }
 /* ---------------------------------Third Banner---------------------------------------------- */
     
+.backimg3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(/Pictures/3banner/zero.png);
+    background-position: 50% center;
+    height: 678px;
+    overflow: hidden;
+}
+.front-6{
+    width: 370px;
+}
 
+.front-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.front-7>img{
+    width: 360px;
+}
+.front-7>h2{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
 
-
+}
+/* .front-7>button{
+        
+} */
 
 
 @media only screen and (max-width: 992px) {
