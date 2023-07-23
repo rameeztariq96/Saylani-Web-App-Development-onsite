@@ -436,6 +436,9 @@ body{
     bottom: 20px;
 }
 
+/* ---------------------------------Fivth Banner---------------------------------------------- */
+
+
 
 @media only screen and (max-width: 992px) {
     .backgimg {
@@ -475,6 +478,45 @@ body{
         margin-right: 50px;
         margin-top: 0px;
 
+    }
+
+    .backimg4{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+    }
+    .front-9{
+        width: 100%;
+    }
+    .front-91>img{
+        width: 50%;
+        height: 35%;
+    }
+
+    .front-81{
+        margin-top: 20px;
+        height: auto;
+        width: 90%;
+    }
+    .front-81>img{
+        height: auto;
+        width: 100%;
+    }
+    .front-81>h4{
+        padding-top: 10px;
+    }
+    .front-82{
+        margin: 20px 0px;
+        height: auto;
+        width: 90%;
+    }
+    .front-82>img{
+        height: auto;
+        width: 100%;
+    }
+    .front-82>h4{
+        padding-top: 10px;
     }
 
 }
