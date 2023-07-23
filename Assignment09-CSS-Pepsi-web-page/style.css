@@ -414,20 +414,26 @@ body{
 }
 
 .front-9{
-    position: relative;
     height: 100%;
     width: 900px;
     z-index: 0;
+    position: relative;
+}
+.front-9>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .front-91{
-    position: absolute;
-z-index: 20;
+    z-index: 0;
 }
 .front-91>img{
-    width: 220px;
-    height: 100px;
-    /* z-index: 20; */
-    margin: 0px auto;
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    z-index: 20;
+    right: 0px;
+    bottom: 20px;
 }
 
 
