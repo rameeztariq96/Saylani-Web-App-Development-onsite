@@ -495,6 +495,72 @@ body{
 }
 /* ---------------------------------Sixth Banner---------------------------------------------- */
 
+.backimg6{
+    margin-top: -7px;
+    background-color: #02449F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 678px;
+    overflow: hidden;
+}
+.front-14{
+    width: 741px;
+    height: 677px;
+    margin-top: 50px;
+}
+.front-14>img{
+    width: 100%;
+    height: 100%;
+}
+ .front-15{
+    width: 472px;
+    height: 331px;
+} 
+.front-15>img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ---------------------------------Sixth Banner---------------------------------------------- */
+
+.backimg7{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(/Pictures/seventhbanner/background1.png);
+    background-repeat: no-repeat;
+    height: 678px;
+}
+.front-16{
+    color: #ffffff;
+    width: 386px;
+    height: 249px;
+}
+.front-161{
+    width: 100%;
+    height: 100%;
+}
+.front-161>h2{
+    font-weight: 800;
+    font-size: 36px;
+    font: bold;
+    line-height: 30px;
+}
+.front-161>p{
+    font-size: 16px;
+}
+
+.front-17{
+    width: 386px;
+    height: 196px
+}
+.front-17>img{
+    width: 100%;
+    height: 100%;
+}
+
 @media only screen and (max-width: 992px) {
     .backgimg {
         width: 100%;
@@ -633,6 +699,22 @@ body{
         display: block !important;
         width: 100%;
         height: 100%;
-   
     }
+    .backimg6{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+    }
+    .front-14{
+        width: 40%;
+        height: auto;
+        margin-top: 10px;
+    }
+     .front-15{
+         width: 30%;
+         height: 20%;
+         margin-top: 40px;
+        } 
+
 }
