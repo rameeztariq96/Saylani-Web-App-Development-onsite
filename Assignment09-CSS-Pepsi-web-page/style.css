@@ -2,14 +2,15 @@
     font-family: Soifa;
     src: url(/Fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf);
 }
-body{
+*{
+    margin: 0px auto;
     max-width: 1400px;
 }
 .my-nav{
     background-color: #0065C3;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
 @-webkit-keyframes rotateIn {
@@ -649,6 +650,36 @@ body{
 }
 
 /* ---------------------------------Footer---------------------------------------------- */
+.my-footer{
+    background-color: #0065C3;
+    height: 288px;
+    align-items:center ;
+
+}
+.my-footer>li{
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.lihover{
+    color: #ffffff;
+}
+.lihover:hover{
+    color: #abd6ff;
+}
+
+.many-icons{
+display: flex;
+flex-direction: row;
+color: #ffffff;
+}
+.many-icons>i{
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+
 
 @media only screen and (max-width: 992px) {
     .backgimg {
@@ -805,10 +836,19 @@ body{
          height: 20%;
          margin-top: 40px;
         } 
+
+    .backimg8{
+        height: auto;
+    }
     .front-19{
      display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    height: auto;
+    }
+    .my-footer
+    {
+        height: auto;
     }
 
 }
