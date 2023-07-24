@@ -523,7 +523,7 @@ body{
 }
 
 
-/* ---------------------------------Sixth Banner---------------------------------------------- */
+/* ---------------------------------Seventh Banner---------------------------------------------- */
 
 .backimg7{
     display: flex;
@@ -561,7 +561,7 @@ body{
     height: 100%;
 }
 
-/* ---------------------------------Sixth Banner---------------------------------------------- */
+/* ---------------------------------Eigth Banner---------------------------------------------- */
 
 .backimg8{
  height: 311px;   
@@ -648,7 +648,7 @@ body{
     animation-timing-function: ease-in-out
 }
 
-
+/* ---------------------------------Footer---------------------------------------------- */
 
 @media only screen and (max-width: 992px) {
     .backgimg {
@@ -805,5 +805,10 @@ body{
          height: 20%;
          margin-top: 40px;
         } 
+    .front-19{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
 
 }
