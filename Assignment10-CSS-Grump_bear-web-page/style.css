@@ -22,7 +22,7 @@
     border: none;
     width: 217px;
     height: 58px;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .nav-btn:hover{
     color: #6e71c7;
@@ -31,8 +31,12 @@
     background-color: #6e71c7;
     background: transparent url(/images/1stbanner/background2.png);
     width: 100%;
-    min-height: 100vh;
+    min-height: 125vh;
     background-position: bottom;
     background-repeat: no-repeat;
     height: auto;
+    /* overflow: hidden; */
+}
+.my-row{
+    flex-wrap: nowrap;
 }
