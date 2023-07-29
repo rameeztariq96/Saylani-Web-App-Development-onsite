@@ -35,8 +35,44 @@
     background-position: bottom;
     background-repeat: no-repeat;
     height: auto;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .my-row{
     flex-wrap: nowrap;
+}
+
+.counter{
+    z-index: 3333!important;
+    margin-top: 30px;
+    background-color: #fff;
+    width: 373px;
+    height: 58px;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    justify-content: space-between;
+}
+
+.buttoons-2{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.btnn-credit{
+    z-index: 3333333 !important;
+   background: rgb(30, 30, 30);
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 8px 15px;
+    font-family: Fidel;
+    font-weight: 900;
+    border-radius: 0.5rem;
+    width: 150px;
+    height: 45px;
+}
+.btnn-credit>img{
+    width: 30px;
+    height: 30px;
 }
