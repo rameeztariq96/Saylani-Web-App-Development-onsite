@@ -7,8 +7,6 @@
     max-width: 1400px;   
 }
 
-
-
 .nav-btn{
     font: normal normal 900 27px/33px Fidel;
     letter-spacing: 0;
@@ -27,18 +25,17 @@
 .nav-btn:hover{
     color: #6e71c7;
 }
-.my-container{
-    background-color: #6e71c7;
+.firstnavbar{
     background: transparent url(/images/1stbanner/background2.png);
-    width: 100%;
-    min-height: 125vh;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: auto;
-    overflow: hidden;
 }
 .my-row{
     flex-wrap: nowrap;
+}
+.nav-item>a{
+    color: #fff !important;
+}
+.nav-item>a:hover{
+    color: #2c2d4e !important;
 }
 
 .counter{
@@ -75,4 +72,33 @@
 .btnn-credit>img{
     width: 30px;
     height: 30px;
+}
+
+/* ----------------------------------------------Second Banner-------------------------------------------------- */
+.secBannerMain{
+    background-image: url(/images/Secondbaner/background.png);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    height: 778px;
+}
+.secBannerHeading{
+    padding: 60px 0px;
+}
+.secBannerHeading>h1{
+    font-size: 90px;
+    font-family: Fidel;
+}
+.secBannerTwoPortions{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.secBannerPortionOne{
+    padding-right:50px ;
+}
+.secBannerPortionOne>p{
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
 }
