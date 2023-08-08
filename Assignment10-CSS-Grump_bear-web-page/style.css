@@ -3,7 +3,7 @@
     src: url(/font/Fidel-Black/Fidel-Black.ttf);
 }
 *{
-    margin: 0px auto;
+    /* margin: 0 auto; */
     max-width: 1400px;   
 }
 
@@ -27,6 +27,7 @@
 }
 .firstnavbar{
     background: transparent url(/images/1stbanner/background2.png);
+    overflow: hidden;   
 }
 .my-row{
     flex-wrap: nowrap;
@@ -49,6 +50,9 @@
     align-items: center;
     font-weight: 800;
     justify-content: space-between;
+}
+.counter>i{
+    padding: 0px 30px;
 }
 
 .buttoons-2{
@@ -79,7 +83,7 @@
     background-image: url(/images/Secondbaner/background.png);
     width: 100%;
     color: #fff;
-    text-align: center;
+    
     height: 778px;
 }
 .secBannerHeading{
@@ -87,18 +91,81 @@
 }
 .secBannerHeading>h1{
     font-size: 90px;
+    text-align: center;
     font-family: Fidel;
+    text-transform: uppercase;
 }
 .secBannerTwoPortions{
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
+   
 }
 .secBannerPortionOne{
-    padding-right:50px ;
+    width: 50%;
 }
 .secBannerPortionOne>p{
-    text-align: left;
-    font-size: 26px;
-    font-weight: bold;
+    margin-right: 60px;
+    font-family: "Roboto-Regular";
+    font-size: 28px;
 }
+/* ----------------------------------------------Third banner-------------------------------------------------- */
+
+.thirdBannerMian{
+    height: 778px;
+    background-color: #2F559D;
+}
+.thirdBannerHeading>h1{
+    font: normal normal 900 83px/104px Fidel;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0px;
+
+}
+.thirdBannerTwoPortions{
+    font-family: Fidel;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.thirdBannerPortionOne{
+    color: #fff;
+    width: 64%;
+    padding-left: 70px;
+}
+.thirdBannerPortionOne>h2{
+    font: normal normal 900 58px/73px Fidel;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.thirdBannerPortionOne>p{
+    line-height: 40px;
+}
+.whiteSpan{
+    font-weight: 400;
+    font-size: 37px;
+}
+.blueSpan{
+    font-weight: 400;
+    font-size: 36px;
+    color: #7BD1FF;
+}
+.thirdBannerPortionTwo{
+    width: 36%;
+    color: #fff;
+}
+.thirdBannerPortionTwo>h2{
+    font: normal normal 900 58px/73px Fidel;
+    text-transform: uppercase;
+    text-align: left;
+}
+.thirdBannerPortionTwo>p{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* ----------------------------------------------Media Query-------------------------------------------------- */
+
+
+
