@@ -172,22 +172,31 @@
 // var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 // num++;
+// var table= tabelNum*num;
 // console.log(tabelNum+"*"+num+"="+table);
 
 // ************************** JS Assignment_01 chp_05 Q6**************************
