@@ -27,7 +27,7 @@
 }
 .firstnavbar{
     background: transparent url(/images/1stbanner/background2.png);
-    overflow: hidden;   
+    overflow: hidden; 
 }
 .my-row{
     flex-wrap: nowrap;
@@ -38,7 +38,9 @@
 .nav-item>a:hover{
     color: #2c2d4e !important;
 }
-
+.centerImage{
+    z-index: 100;
+}
 .counter{
     z-index: 3333!important;
     margin-top: 30px;
@@ -343,7 +345,8 @@
 .sixthPortionTwo>p>i{
     font-size: 60px;
     cursor: pointer;
-    display: inline-block;
+}
+.sixthPortionTwo>p>i:hover{
     transition: all .2s ease-in-out;
 }
 /* ----------------------------------------------Seventh Banner-------------------------------------------------- */
@@ -366,4 +369,8 @@
     font-size: 20px;
     color: #fff;
     letter-spacing: 15px;
+    cursor: pointer;
+}
+.seventhIcon>i:hover{
+    color: #5496E3;
 }
