@@ -193,3 +193,41 @@
 //     //false
 
 // **********************************Assignment 02 Chapter 09-011 Ques 06**********************************
+
+// var obtainedmarks=+prompt("Enter your obtained marks")
+// var totalMarks=300;
+// var percentage= obtainedmarks/totalMarks*100;
+// var grade;
+// var remarks;
+// if (percentage >= 80){
+//     grade="A-one";
+//     remarks="Execellent";
+// }else if (percentage >= 70){
+//     grade="A";
+//     remarks="Good";
+// }else if(percentage >= 60){
+//     grade="B";
+//     remarks="You Need to improve";
+// }else if(percentage < 60){
+//     grade="Fail";
+//     remarks="Sorry";
+// }else{
+//     console.log("Enter Correct Marks")
+// }
+// console.log("Total Marks: "+totalMarks+"\nMarks Obtained: "+obtainedmarks+"\nPercentage: "+percentage+" %"+"\nGrade: "+grade+"\nRemarks: "+remarks);
+
+// **********************************Assignment 02 Chapter 09-011 Ques 07**********************************
+
+// var num= 4;
+// var guess=+prompt("Guess the number");
+// if (num === guess){
+//     console.log("Bingo! Correct Answer");
+// }else {
+//     if(num+1 === guess){
+//         console.log("Close enough to the correct answer");
+//     }else{
+//         console.log("Incorrect Answer")
+//     }
+// }
+
+// **********************************Assignment 02 Chapter 09-011 Ques 08**********************************
