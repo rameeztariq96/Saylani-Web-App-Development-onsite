@@ -282,20 +282,95 @@
 //     console.log("Your operation input is invalid")
 // }
 
-// **********************************Assignment 02 Chapter 12-13 Ques 1**********************************
+// **********************************Assignment 02 Chapter 12-13 Ques 01**********************************
 
-var user=prompt("Enter a number or String");
-var charCode= user.charCodeAt(0);
-if (user >= 48 || charCode <=57){
-    console.log("This is a number")
-}else if(charCode >= 65 && charCode <= 90) {
-    console.log("The input is an uppercase letter.");
-} else if (charCode >= 97 && charCode <= 122) {
-    console.log("The input is a lowercase letter.");
-} else {
-    console.log("The input is not a number or a letter.");
-}
-
-
+// var user=prompt("Enter a number or String");
+// var charCode= user.charCodeAt(0);
+// if (user >= 48 || charCode <=57){
+//     console.log("This is a number")
+// }else if(charCode >= 65 && charCode <= 90) {
+//     console.log("The input is an uppercase letter.");
+// } else if (charCode >= 97 && charCode <= 122) {
+//     console.log("The input is a lowercase letter.");
+// } else {
+//     console.log("The input is not a number or a letter.");
+// }
 
 
+// **********************************Assignment 02 Chapter 12-13 Ques 02**********************************
+
+// var firstNum=+prompt("Enter First number");
+// var secondNum=+prompt("Enter Second number");
+// if (firstNum > secondNum){
+//     console.log(firstNum+" is greater")
+// }else if(secondNum > firstNum){
+//     console.log(secondNum+" is greater")
+// }else if(firstNum === secondNum){
+//     console.log("Both number are equal.")
+// }else{
+//     console.log("Invalid input")
+// }
+
+// **********************************Assignment 02 Chapter 12-13 Ques 03**********************************
+
+// var num=+prompt("Enter a number.");
+// if (num < 0){
+//     console.log("Number is negative")
+// }else if (num > 0){
+//     console.log("Number is positive")
+// }else if (num === 0){
+//     console.log("Number is equal to zero")
+// }else{
+//     console.log("Input is invalid")
+// }
+
+// **********************************Assignment 02 Chapter 12-13 Ques 04**********************************
+// var alpha=prompt("Enter a single alphabet");
+// if (alpha.length === 1){
+//     if(alpha === "a" ||alpha === "e" ||alpha === "i" ||alpha === "o" ||alpha === "u"){
+//         console.log("Its a vowel");
+//     }else{
+//         console.log("Not a vowel");
+//     }
+// }else{
+//     console.log("long input");
+// }
+
+// **********************************Assignment 02 Chapter 12-13 Ques 05**********************************
+
+// var ans="pakistan";
+// var input=prompt("Enter Password");
+// if (input !== ans || input.length === 0){
+//     console.log("Incorrect Password");
+// }else if (input === ans){
+//     console.log("Correct!")
+// }else{
+//     console.log("Please enter your pasword")
+// }
+
+// **********************************Assignment 02 Chapter 12-13 Ques 06**********************************
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// console.log(greeting);
+// }else{
+// greeting = "Good evening";
+// console.log(greeting);
+// }
+
+// **********************************Assignment 02 Chapter 12-13 Ques 07**********************************
+
+// var num=+prompt("Enter time in 24 hours format");
+// if(num >= 0000 && num < 1200){
+//     console.log("Good Morning")
+// }else if(num >=1200 && num < 1700){
+//     console.log("Good Afternoon")
+// }else if(num >= 1700 && num < 2100){
+//     console.log("Good Evening")
+// }else if(num >= 2100 && num <= 2359){
+//     console.log("Good Night")
+// }else{
+//     console.log("Invalid input")
+// }
