@@ -231,3 +231,71 @@
 // }
 
 // **********************************Assignment 02 Chapter 09-011 Ques 08**********************************
+// var num=+prompt("Enter a number");
+// if(num % 3 == 0){
+//     console.log(num+" Number is divisible by 3");
+// }else{
+//     console.log(num+" is not divisible by 3")
+// }
+
+// **********************************Assignment 02 Chapter 09-011 Ques 09**********************************
+// var num =+prompt("Enter a number");
+// if (num % 2 == 0){
+//     console.log(num+" This is a Even number");
+// }else{
+//     console.log(num+" This number is Odd");
+// }
+
+// **********************************Assignment 02 Chapter 09-011 Ques 10**********************************
+// var temp=+prompt("Tell me the Temperature")
+// if (temp > 40 ){
+//     console.log("Its to hot outside")
+// }else if(temp > 30){
+//     console.log("The weather today is normal")
+// }else if(temp > 20){
+//     console.log("Today's weather is cool")
+// }else if (temp > 10){
+//     console.log("OMG! Today's weather is so cool")
+// }else{
+//     console.log("The temperature input is invalid")
+// }
+
+// **********************************Assignment 02 Chapter 09-011 Ques 11**********************************
+
+// var firstNum=+prompt("Enter first number") , secondNum=+prompt("Enter second number"); operation=prompt("What calculation you want? \n(+, -, *, /, %):")
+// var mult= firstNum*secondNum;
+// var divid= firstNum/secondNum;
+// var plus= firstNum+secondNum;
+// var minus=firstNum-secondNum;
+// var percent= firstNum/secondNum*100;
+// if(operation === "*"){
+//     console.log(firstNum+" x "+secondNum+" = "+mult);
+// }else if (operation === "/"){
+//     console.log(firstNum+" / "+secondNum+" = "+divid);
+// }else if (operation === '+'){
+//     console.log(firstNum+" + "+secondNum+" = "+plus);
+// }else if (operation === '-'){
+//     console.log(firstNum+" - "+secondNum+" = "+minus);
+// }else if (operation === "%"){
+//     console.log(firstNum+" % "+secondNum+" = "+percent);
+// }else{
+//     console.log("Your operation input is invalid")
+// }
+
+// **********************************Assignment 02 Chapter 12-13 Ques 1**********************************
+
+var user=prompt("Enter a number or String");
+var charCode= user.charCodeAt(0);
+if (user >= 48 || charCode <=57){
+    console.log("This is a number")
+}else if(charCode >= 65 && charCode <= 90) {
+    console.log("The input is an uppercase letter.");
+} else if (charCode >= 97 && charCode <= 122) {
+    console.log("The input is a lowercase letter.");
+} else {
+    console.log("The input is not a number or a letter.");
+}
+
+
+
+
