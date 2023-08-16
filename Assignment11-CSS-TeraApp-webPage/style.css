@@ -112,11 +112,55 @@ a{
 /* *********************************************Second Banner************************************************* */
 .secondBannerMain{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+   
+}
+.secondBannerMainPortions{
     background-color: #75BF7A;
-    width: 95%;
+    width: 85%;
     height: 166px;
     border-radius: 10px;
     color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondBannerLeft{
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.secondBannerRight{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.secondBannerRightInput>input{
+    height:67px;
+    width: 499px;
+    border-radius: 4px;
+    border-style: none;
+    text-indent: 50px;
+}
+.secondBannerRightButton>button{
+    font-weight: 800;
+    font-size: 22px;
+    font-family: Gilory;
+    width: 260px;
+    height: 67px;
+    border-radius: 5;
+    background-color: #000000;
+    border-style: none;
+    color: #FFFFFF;
+
+
 }
