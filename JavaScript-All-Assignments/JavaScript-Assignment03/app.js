@@ -74,7 +74,24 @@
 // console.log("Selected cities list: "+selectedCities);
 
 // **********************************Assignment 03 Chapter 14-16 Ques 12**********************************
-var arr = ["This","is","my","cat"];
-console.log("Array: "+arr);
-var updatedArr=arr.join(" ");
-console.log("String: "+updatedArr)
+// var arr = ["This","is","my","cat"];
+// console.log("Array: "+arr);
+// var updatedArr=arr.join(" ");
+// console.log("String: "+updatedArr);
+
+// **********************************Assignment 03 Chapter 14-16 Ques 13**********************************
+
+// var arr=["Keyboard","Mouse","Printer","Monitor"];
+// console.log("Devices: \n"+arr);
+
+// var updatedArr=arr.shift();
+// console.log("Out:\n"+updatedArr);
+// var updatedArr=arr.shift();
+// console.log("Out:\n"+updatedArr);
+// var updatedArr=arr.shift();
+// console.log("Out:\n"+updatedArr);
+// var updatedArr=arr.shift();
+// console.log("Out:\n"+updatedArr);
+
+// **********************************Assignment 03 Chapter 14-16 Ques 14**********************************
+
