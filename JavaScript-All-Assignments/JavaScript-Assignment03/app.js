@@ -74,7 +74,7 @@
 // console.log("Selected cities list: "+selectedCities);
 
 // **********************************Assignment 03 Chapter 14-16 Ques 12**********************************
-var arr = ["This "," is "," my "," cat "];
+var arr = ["This","is","my","cat"];
 console.log("Array: "+arr);
-var updatedArr=arr.join();
+var updatedArr=arr.join(" ");
 console.log("String: "+updatedArr)
