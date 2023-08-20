@@ -95,3 +95,20 @@
 
 // **********************************Assignment 03 Chapter 14-16 Ques 14**********************************
 
+// var arr=["Keyboard","Mouse","Printer","Monitor"];
+// console.log("Devices: \n"+arr);
+
+// var updatedArr=arr.pop();
+// console.log("Out:\n"+updatedArr);
+// var updatedArr=arr.pop();
+// console.log("Out:\n"+updatedArr);
+// var updatedArr=arr.pop();
+// console.log("Out:\n"+updatedArr);
+// var updatedArr=arr.pop();
+// console.log("Out:\n"+updatedArr);
+
+// **********************************Assignment 03 Chapter 14-16 Ques 15**********************************
+
+// var manufacturers=["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"];
+// document.write("<select> <option disabled selected> Select Manufacturer </option> <option> " + manufacturers[0] + "</option> <option>"+manufacturers[1] +"</option><option>"+manufacturers[2]+"</option> <option>"+manufacturers[3]+"</option> <option>"+manufacturers[4]+"</option> <option>"+manufacturers[5]+"</option> </select>");
+
