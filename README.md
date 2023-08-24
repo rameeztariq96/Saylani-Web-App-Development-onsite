@@ -1,5 +1,7 @@
       !.................SMIT Batch 10.................!
-All Assignment Links
+Projects
 
 
-https://rameeztariqallassignments.netlify.app
+https://myporfoliorameez.netlify.app
+
+
