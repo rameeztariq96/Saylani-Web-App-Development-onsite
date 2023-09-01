@@ -1,6 +1,5 @@
 // **********************************Assignment 04 Chapter 17-20 Ques 01**********************************
-// var arr1=[];
-// var arr2=[];
+// var arr1=[[],[]];
 
 // **********************************Assignment 04 Chapter 17-20 Ques 02**********************************
 // var arr1=[0,1,2,3]
@@ -110,3 +109,94 @@
 //         console.log(i);
 //     }
 // }
+
+// *******************************************************************************************************
+// **********************************Assignment 04 Chapter 21-25 Ques 01**********************************
+// *******************************************************************************************************
+
+// var firstName=prompt("Enter your First Name").toUpperCase();
+// var lastName=prompt("Enter your Last Name").toUpperCase();
+// var fullName=(firstName+" "+lastName);
+// alert("Hello " + fullName);
+
+// **********************************Assignment 04 Chapter 21-25 Ques 02**********************************
+
+// var mobileModel=prompt("Enter your favorite mobile phone model");
+// console.log("My favorite phone is: ", mobileModel)
+// console.log("length of string is: ", mobileModel.length);
+
+// **********************************Assignment 04 Chapter 21-25 Ques 03**********************************
+
+// var nationality="Pakistani";
+// console.log("String :", nationality);
+// for(var i=0; i < nationality.length ; i++){
+//     if( nationality[i] === "n"){
+//         console.log("Index of 'n' is: ", i);
+//         break;
+//     }
+// }
+
+// **********************************Assignment 04 Chapter 21-25 Ques 04**********************************
+
+// var text="hello world";
+// console.log("String :",text);
+// for(var i=text.length; i > 0 ; i--){
+//     if( text[i] === "l"){
+//         console.log("Last index of 'l' is: "+ i);
+//         break;
+//     }    
+// }
+
+// **********************************Assignment 04 Chapter 21-25 Ques 05**********************************
+
+// var nationality = "Pakistani";
+// console.log("String:",nationality);
+
+// var result = nationality.charAt(3)
+// console.log("Character at index 3 is:"+ result);
+
+// **********************************Assignment 04 Chapter 21-25 Ques 06**********************************
+
+// var firstName=prompt("Enter your First Name").toUpperCase();
+// var lastName=prompt("Enter your Last Name").toUpperCase();
+// var fullName=(firstName+" "+lastName);
+// alert("Hello " + fullName);
+
+// **********************************Assignment 04 Chapter 21-25 Ques 07**********************************
+
+// var city="Hyderabad";
+// console.log("City:",city);
+
+// var city2 = city.slice(5);
+// var city3 = "Islam"+ city2;
+// console.log("After replacement: "+city3);
+
+// **********************************Assignment 04 Chapter 21-25 Ques 08**********************************
+
+// var text="Ali and Sami are best friends. They play cricket and football together.";
+// for (var i = 0; i < text.length; i++) {
+//     if (text.slice(i, i + 3) === "and") { 
+//         text = text.slice(0, i) + "&" + text.slice(i + 3);   
+//     }
+// }
+// console.log(text);
+
+// **********************************Assignment 04 Chapter 21-25 Ques 09**********************************
+
+// **********************************Assignment 04 Chapter 21-25 Ques 10**********************************
+
+// var inputUser = prompt("Enter a words");
+// console.log("User Input: ",inputUser);
+// console.log("Upper Case: ",inputUser.toUpperCase());
+
+// **********************************Assignment 04 Chapter 21-25 Ques 11**********************************
+
+// var inputUser = prompt("Enter a word");
+// var secInput = inputUser.slice(1);
+// var thirdInput = inputUser.slice(0,1);
+
+// console.log("User input:" ,inputUser);
+// console.log("Title case: ",thirdInput.toUpperCase()+secInput);
+
+// **********************************Assignment 04 Chapter 21-25 Ques 12**********************************
+
