@@ -182,6 +182,9 @@
 // console.log(text);
 
 // **********************************Assignment 04 Chapter 21-25 Ques 09**********************************
+// var num = "472";
+// console.log(typeof + "Type " + num)
+// console.log(typeof + "Type " + num)
 
 // **********************************Assignment 04 Chapter 21-25 Ques 10**********************************
 
@@ -199,4 +202,61 @@
 // console.log("Title case: ",thirdInput.toUpperCase()+secInput);
 
 // **********************************Assignment 04 Chapter 21-25 Ques 12**********************************
+// var num=35.36;
+// console.log("Number: "+num);
+// var num2 = num.toString().replace(".","");
+// console.log("Result: " + num2)
 
+
+// **********************************Assignment 04 Chapter 21-25 Ques 13**********************************
+
+// var inputUser=prompt("Enter a username");
+// var ASCII = ["@","!","#","*",",","."];
+// var user=false;
+
+// for (var i=0; i<=inputUser.length ; i++){
+//     if(inputUser.includes(ASCII[i])){
+//         alert("Please Enter a valid username.")
+//         user=true;
+//         break;
+//     }
+// }
+// if (user==false){
+//     alert(inputUser +" Hello Sir/MA'AM" )
+// }
+
+// **********************************Assignment 04 Chapter 21-25 Ques 14**********************************
+
+// var a=["cake","apple pie","cookie","chips","patties"];
+// var inputuser=prompt("Welcome to ABC bakery. What would you like to order sir/ma'am?").toLowerCase();
+// var user = false
+// for(var i=0; i<=a.length; i++){
+//     if(inputuser == a[i] ) {
+//         alert("This item is available at index "+[i]+" in our bakery");
+//         user=true;
+//         break;
+//     }
+// }
+// if (user == false){
+//     alert ("We are Sorry. "+inputuser+" is not available in our bakery.")
+// }
+
+// **********************************Assignment 04 Chapter 21-25 Ques 15**********************************
+
+// **********************************Assignment 04 Chapter 21-25 Ques 16**********************************
+
+// var uni="University of Karachi";
+// for (var i=0 ; i<uni.length ; i++ ){
+//     uni.split();
+//     console.log(uni[i])
+// }
+
+
+// **********************************Assignment 04 Chapter 21-25 Ques 17**********************************
+
+// var user = prompt("Enter Something");
+// console.log("Input: " + user);
+// for (var i=0 ; i<user.length ; i++){
+//     user.split(user.length-5);
+//     console.log(user[i]);   
+// }
