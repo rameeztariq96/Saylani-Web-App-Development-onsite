@@ -58,3 +58,16 @@
 //     console.log("Try Again :( ")
 //     console.log("Correct Answer was",secretNum);
 // }
+
+// **********************************Assignment 05 Chapter 31-34 Ques 01**********************************
+// var user = new Date ();
+// console.log(user);
+
+// **********************************Assignment 05 Chapter 31-34 Ques 02**********************************
+
+// var months=["January","Feburary","March","April","May","June","July","August","September","Octuber","November", "December"];
+// var user= new Date();
+// var currentMonth= months[user.getMonth()];
+// console.log("Current Month: ", currentMonth);
+
+// **********************************Assignment 05 Chapter 31-34 Ques 03**********************************
