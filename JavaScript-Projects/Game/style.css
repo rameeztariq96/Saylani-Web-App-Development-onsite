@@ -10,14 +10,8 @@
     position: relative;
 }
 .character1{
-    /* background-color: red;
-    width: 50%;
-    height: 50px; */
     position: absolute;
     bottom: 50px;
-    left: 20px;
-}
-.character1>img{
     height: 250px;
 }
 .character2{
