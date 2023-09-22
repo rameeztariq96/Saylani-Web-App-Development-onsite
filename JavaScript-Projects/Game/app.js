@@ -74,5 +74,66 @@ function moveCharacterOne() {
             character.style.height = '250px'
         },900);
     }
+//*******************************Second Character********************************************* */
+    
+var characterTwo = document.getElementById('characterTwo')
+    if(event.keyCode === 37){
+        forward = forward + 20;
+        characterTwo.style.right = forward + 'px'
+        characterTwo.src = '/Images/secondCharacter/walk.gif';
+        setTimeout(function(){
+            characterTwo.src ='/Images/secondCharacter/standing.gif'
+        },300);
+    }
+    if(event.keyCode === 39){
+        forward = forward - 20;
+        characterTwo.style.right = forward + 'px'
+        characterTwo.src = '/Images/secondCharacter/walk.gif';
+        setTimeout(function(){
+            characterTwo.src ='/Images/secondCharacter/standing.gif'
+        },300);
+    }
+    if(event.keyCode === 38){
+        forward = forward - 20;
+        characterTwo.style.right = forward + 'px'
+        characterTwo.style.height = "400px"
+        characterTwo.src = '/Images/secondCharacter/jump.gif';
+        setTimeout(function(){
+            characterTwo.src ='/Images/secondCharacter/standing.gif'
+            characterTwo.style.height = "250px"
+        },1400);
+    }
+    if(event.keyCode === 40){
+        characterTwo.style.height = "400px"
+        characterTwo.src = '/Images/secondCharacter/sitting.gif';
+        setTimeout(function(){
+            characterTwo.src ='/Images/secondCharacter/standing.gif'
+            characterTwo.style.height = "250px"
+        },1000);
+    }
+    if(event.keyCode === 97){
+        characterTwo.style.height = "390px"
+        characterTwo.src = '/Images/secondCharacter/action1.gif';
+        setTimeout(function(){
+            characterTwo.src ='/Images/secondCharacter/standing.gif'
+            characterTwo.style.height = "250px"
+        },2200);
+    }
+    if(event.keyCode === 98){
+        characterTwo.style.height = "280px"
+        characterTwo.src = '/Images/secondCharacter/action2.gif';
+        setTimeout(function(){
+            characterTwo.src ='/Images/secondCharacter/standing.gif'
+            characterTwo.style.height = "250px"
+        },1800);
+    }
+    if(event.keyCode === 99){
+        characterTwo.style.height = "220px"
+        characterTwo.src = '/Images/secondCharacter/action3.gif';
+        setTimeout(function(){
+            characterTwo.src ='/Images/secondCharacter/standing.gif'
+            characterTwo.style.height = "250px"
+        },1500);
+    }
 }
 window.onkeydown = moveCharacterOne;
