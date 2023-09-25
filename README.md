@@ -2,6 +2,6 @@
 Projects
 
 
-https://porfoliorameez.netlify.app
+https://portfoliorameez.netlify.app/
 
 
