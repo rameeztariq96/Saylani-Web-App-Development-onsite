@@ -1,8 +1,9 @@
 var forward=0;
 function moveCharacterOne() {
     console.log(event.keyCode)
+    console.log(forward)
     var character = document.getElementById('characterOne');
-    if(event.keyCode === 68){
+    if(event.keyCode === 68 && forward < 1220){
         forward = forward + 20;
         character.style.left = forward + 'px'
         character.style.height = "250px"
@@ -11,7 +12,7 @@ function moveCharacterOne() {
             character.src ='/Images/firstCharacter/standingstill.gif'
         },200);
     }
-    if(event.keyCode === 65){
+    if(event.keyCode === 65  && forward > 20){
         forward = forward - 20;
         character.style.left = forward + "px"
         character.style.height = "250px"
@@ -77,7 +78,7 @@ function moveCharacterOne() {
 //*******************************Second Character********************************************* */
     
 var characterTwo = document.getElementById('characterTwo')
-    if(event.keyCode === 37){
+    if(event.keyCode === 37  && forward < 1220){
         forward = forward + 20;
         characterTwo.style.right = forward + 'px'
         characterTwo.src = '/Images/secondCharacter/walk.gif';
@@ -85,7 +86,7 @@ var characterTwo = document.getElementById('characterTwo')
             characterTwo.src ='/Images/secondCharacter/standing.gif'
         },300);
     }
-    if(event.keyCode === 39){
+    if(event.keyCode === 39 && forward > 20){
         forward = forward - 20;
         characterTwo.style.right = forward + 'px'
         characterTwo.src = '/Images/secondCharacter/walk.gif';
@@ -133,7 +134,7 @@ var characterTwo = document.getElementById('characterTwo')
         setTimeout(function(){
             characterTwo.src ='/Images/secondCharacter/standing.gif'
             characterTwo.style.height = "250px"
-        },1500);
+        },2500);
     }
 }
 window.onkeydown = moveCharacterOne;

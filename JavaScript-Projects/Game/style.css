@@ -1,16 +1,30 @@
 *{
     margin: 0;
 }
+
+@font-face {
+    font-family:modesto ;
+    src: url(/font/Modesto/Modesto\ Poster.ttf);
+}
+
 .main{
     width: 100%;
     height: 100vh;
     background: no-repeat url(/Images/Gd9Xlm.gif);
     background-size: 100% 100%;
-    /* display: flex; */
     position: relative;
+}
+.main>h2{
+    color: #ffffff;
+    margin-left: 30px;
 }
 .keysInfo{
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-family:modesto;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 .keysInfo>ul{
     list-style-type: none;
