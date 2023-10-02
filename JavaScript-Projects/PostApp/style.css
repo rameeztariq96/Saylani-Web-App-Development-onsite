@@ -1,0 +1,7 @@
+*{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.container-fluid{
+    background-color: #ecdf95;
+}
