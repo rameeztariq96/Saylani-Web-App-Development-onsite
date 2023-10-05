@@ -1,7 +1,44 @@
-*{
-    margin: 0 auto;
-    max-width: 1440px;
+@font-face {
+    font-family: Gilroy;
+    src: url(/Fonts/Gilroy-Regular.ttf);
 }
-.container-fluid{
+*{
+   /* margin: 0px auto;
+   max-width: 1440px; */
+   font-family: Gilroy;
+}
+.navbar{
+    padding: 0px !important;
+}
+.nav-contaner{
     background-color: #ecdf95;
+    height: 50px;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.form-control:focus{
+    box-shadow: 0px 0px 10px 5px #ecdf95 !important;
+    border-color: #ecdf95;
+}
+.btn-primary{
+    background-color: #a59c68 ;
+    border-color: #a59c68; 
+}
+.btn-primary:hover{
+    background-color: #ecdf95;
+    border-color: #ecdf95;
+}
+.btn-primary:active{
+    background-color: #a59c68 !important;
+    border-color: #a59c68 !important;
+}
+@media only screen and (max-width: 500px) {
+    .main{
+        padding: 10px 4px !important;
+    }
+    
 }

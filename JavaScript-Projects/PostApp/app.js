@@ -1,5 +1,5 @@
-function submit(){
-    var postinput = document.getElementById("postinput")
-    console.log(postinput.value)
+function submitbtn(){
+    var postinput = document.getElementById("title")
+    console.log(descriptionOne.value)
     postinput.value="";
 }
