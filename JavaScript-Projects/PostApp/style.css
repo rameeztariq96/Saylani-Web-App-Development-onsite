@@ -65,6 +65,29 @@
 .swal2-confirm:active{
     border-color: #a59c68 !important;
 }
+.card-body{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.post-content{
+    width: 100%;
+    height: 100%;
+    /* position:absolute; */
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
 
 
 

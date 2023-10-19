@@ -1,3 +1,5 @@
+var backgroundImage = "";
+
 function submitbtn(){
     var posttitle = document.getElementById("title")
     var postdescription = document.getElementById("descriptionOne")
@@ -10,11 +12,13 @@ function submitbtn(){
     <div class="card-header">
         Post
         </div>
-    <div class="card-body">
+    <div class="card-body" style="background-image:url(${backgroundImage})">
         <blockquote class="blockquote mb-0">
             <p>${posttitle.value}</p>
-            <footer class="blockquote-footer">${postdescription.value}</footer>
+            <footer class="post-content blockquote-footer">${postdescription.value}</footer>
         </blockquote>
+        <div class="overlay">
+        </div>
     </div>
     </div>`
     posttitle.value="";
@@ -28,6 +32,7 @@ function submitbtn(){
     }
 }
 function selectImage(src){
+    backgroundImage = src;
     var bgImage = document.getElementsByClassName("bg-image")
     for(var i=0 ; i < bgImage.length; i++){
         bgImage[i].className="bg-image";
