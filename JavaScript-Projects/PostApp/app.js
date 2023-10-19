@@ -27,3 +27,10 @@ function submitbtn(){
           })
     }
 }
+function selectImage(src){
+    var bgImage = document.getElementsByClassName("bg-image")
+    for(var i=0 ; i < bgImage.length; i++){
+        bgImage[i].className="bg-image";
+    }
+    event.target.className += " image-list-selected"
+}
