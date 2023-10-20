@@ -1,4 +1,12 @@
-.main{
+.main {
+    background-image: url(/Images/header.jpg) ;
     height: 80vh;
+}
+.navbar{
     background-image: url(/Images/header.jpg);
+}
+.content{
+    color: #fff;
+    text-align: center;
+    padding-top: 15vh;
 }
