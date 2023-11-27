@@ -124,4 +124,5 @@ var allData={
             price:"PKR 1100000",
         },  
     },
+    
     }
