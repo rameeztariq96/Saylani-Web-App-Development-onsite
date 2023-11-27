@@ -1,3 +1,7 @@
+/* *{
+    max-width: 1440px;
+    margin: 0px auto;
+} */
 .main {
     background-image: url(/Images/header.jpg) ;
     height: 80vh;
