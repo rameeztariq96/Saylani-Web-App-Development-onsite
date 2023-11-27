@@ -92,4 +92,36 @@ var allData={
             price:"PKR 1600000",
         },
         },
+    suzuki:{
+        swift:{
+            name:"Swift",
+            model:"2023",
+            color:"Pearl White",
+            price:"PKR 200000",
+        },
+        cultus:{
+            name:"Cultus",
+            model:"2023",
+            color:"Royal Blue",
+            price:"PKR 1500000",
+        },
+        vagonR:{
+            name:"Vagon R",
+            model:"2023",
+            color:"Gold",
+            price:"PKR 1200000",
+        },
+        mehran:{
+            name:"Mehran The BOSS",
+            model:"1998",
+            color:"Green",
+            price:"PKR 800000",
+        },  
+        alto:{
+            name:"Alto VXR",
+            model:"2023",
+            color:"White",
+            price:"PKR 1100000",
+        },  
+    },
     }
